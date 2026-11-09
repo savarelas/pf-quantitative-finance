@@ -23,3 +23,6 @@ git add {nombre_archivo} | ejemplo: git add main.python
 
 # Confirmar cambios
 git commit -m "backup"
+
+# Cargar cambios al repositorio
+git push origin main
