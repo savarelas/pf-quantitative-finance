@@ -1,0 +1,25 @@
+#===================
+# Comandos Python
+#===================
+
+# Crear un ambiente virtual
+python3 -m venv .venv
+
+# Activar un ambiente virtual
+source .venv/bin/activate
+
+# Instalar librerias desde el archivo requirements
+pip3 install -r requirements.txt
+
+#===================
+# Comandos Git
+#===================
+
+# Revisar estado
+git status
+
+# Agregar archivo
+git add {nombre_archivo} | ejemplo: git add main.python
+
+# Confirmar cambios
+git commit -m "backup"
